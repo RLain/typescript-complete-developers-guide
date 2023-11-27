@@ -4,7 +4,7 @@
 
 - [typescript](https://www.npmjs.com/package/typescript)
   - $ `npm install -g typescript@latest`
-- [ts-node](https://www.npmjs.com/package/ts-node)
+- [ts-node](https://www.npmjs.comg/package/ts-node)
 - [axios](https://www.npmjs.com/package/axios) with a caveat that we `downgraded` to 0.27.2 due to "There is currently a major bug that has broken the last three versions of axios since v1.".
 
 ## Useful commands
@@ -34,3 +34,27 @@ Think of Typescript as a `coding helper`. It helps us catch errors, but doesn't 
 ### Types
 
 Easy way to refer to the different properties + functions that a value has.
+
+There are two main categories:
+
+### 1. Primitive types
+
+- number
+- string
+- boolean
+- void
+- undefined
+- null
+- symbol
+
+## 2. Object types
+
+- arrays
+- objects
+- functions
+- classes
+
+We care about types because:
+
+- Types are used by the Typescript Compiler to analyze our code for errors
+- Types allow other engineers to understand what values are flowing around our codebase
