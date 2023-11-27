@@ -14,8 +14,15 @@ Think of Typescript as a `coding helper`. It helps us catch errors, but doesn't 
 ## Things installed during the course
 
 - [typescript](https://www.npmjs.com/package/typescript)
+  - $ `npm install -g typescript@latest`
 - [ts-node](https://www.npmjs.com/package/ts-node)
+- [axios](https://www.npmjs.com/package/axios) with a caveat that we `downgraded` to 0.27.2 due to "There is currently a major bug that has broken the last three versions of axios since v1.".
 
 ## Useful commands
 
 - $ `tsc --help`
+- $ `npm list` = To see the latest version of all the npm package installed, including their dependencies
+
+## Resources
+
+- https://jsonplaceholder.typicode.com/ = Free fake API for testing and prototyping.
