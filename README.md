@@ -18,7 +18,7 @@
 - [Diagrams draw.io](https://www.drawio.com/)
 - [RallyCoding](https://discord.com/channels/797239171730505839/797239171730505842) - discord server
 
-### Course notes
+## Course notes
 
 ### TS Type System
 
@@ -37,7 +37,7 @@ Easy way to refer to the different properties + functions that a value has.
 
 There are two main categories:
 
-### 1. Primitive types
+##### 1. Primitive types
 
 - number
 - string
@@ -47,12 +47,14 @@ There are two main categories:
 - null
 - symbol
 
-## 2. Object types
+#### 2. Object types
 
 - arrays
 - objects
 - functions
 - classes
+
+#### Annotation vs inference
 
 We care about types because:
 
