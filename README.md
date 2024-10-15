@@ -58,3 +58,10 @@ We care about types because:
 
 - Types are used by the Typescript Compiler to analyze our code for errors
 - Types allow other engineers to understand what values are flowing around our codebase
+
+| Type annotations (We tell Typescript the type) |  Type inference (Typescript guesses the type) |
+| -------------------- | ------ | 
+| When to use....               | When to use.... | 
+| When a function returns the 'any' type and we need to clarify the value                | Always! | 
+| When we declare a variable on one line then initialize it later               |  | 
+| When we want a variable to have a type that can't be inferred
