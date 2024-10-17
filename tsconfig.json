@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es6",                       // Specify ECMAScript target version: 'es5', 'es6', 'es2015', 'es2020', 'esnext', etc.
+      "module": "es2020",                  // Specify module code generation: 'commonjs', 'amd', 'es2020', 'esnext', etc.
+      "esModuleInterop": true,               // Enables ES module interoperability (important for importing default exports from modules)
+      "forceConsistentCasingInFileNames": true, // Ensure consistent file naming across your project
+      "skipLibCheck": true,                  // Skip type checking of declaration files to speed up compilation
+      "outDir": "./dist",                    // Redirect output structure to the 'dist' directory
+      "rootDir": "./src",                    // Specify the root directory of your source files
+      "noImplicitAny": true,                 // Raise an error on expressions and declarations with an implied 'any' type
+      "noImplicitReturns": true,             // Report error when not all code paths in function return a value
+      "noImplicitThis": true,                // Raise error on 'this' expressions with an implied 'any' type
+      "strictNullChecks": true               // Ensure strict null checking
+    },
+    "exclude": [
+      "node_modules",                        // Exclude 'node_modules' directory
+      "dist"                                 // Exclude output directory
+    ]
+  }
+  
