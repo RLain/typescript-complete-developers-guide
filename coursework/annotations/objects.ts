@@ -1,5 +1,6 @@
 
 // Object annotations
+// ℹ️ Note some code is commented out to prevent redeclaration errors
 
 // The following is an example of including a function within an object definition that includes type annotation: setAge()
 
@@ -25,6 +26,8 @@ const profile = {
 // We have to annotate the profile! And in this can destructure age out of profile.
 const { age }: {age: number} = profile
 
-// Plain destructuring without the annotation syntax
-const { coordinates: {lat, long}} = profile
+// Plain destructuring without the annotation syntax is as follows:
+    // const { coorsdinates: {lat, long}} = profile
 
+// Now with type annotation
+const { coordinates: { lat, long } }: {coordinates: {lat: number, long: number}} = profile
