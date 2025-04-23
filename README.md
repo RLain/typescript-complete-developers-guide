@@ -1,4 +1,8 @@
-# 👩‍💻 Udemy Course: [Typescript Complete Developers Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide)
+# [Archived] 👩‍💻 Udemy Course: [Typescript Complete Developers Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide)
+
+ℹ️ I started a [new course](https://github.com/RLain/typescript-bootcamp-beginner-to-advanced-2024) based on preference for Vasco's teaching style. This course is now archived.
+
+__________________________
 
 ## Things installed during the course
 
